@@ -14,7 +14,17 @@ public class ClientVisitApproval {
 	
 	String updatedDate;
 	
+	String updatedBy;
 	
+	
+
+	public String getUpdatedBy() {
+		return updatedBy;
+	}
+
+	public void setUpdatedBy(String updatedBy) {
+		this.updatedBy = updatedBy;
+	}
 
 	public String getUpdatedDate() {
 		return updatedDate;
