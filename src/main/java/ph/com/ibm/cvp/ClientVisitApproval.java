@@ -11,6 +11,18 @@ public class ClientVisitApproval {
 	String clientVisitRequestId;
 	
 	List<Approval> approvalList;
+	
+	String updatedDate;
+	
+	
+
+	public String getUpdatedDate() {
+		return updatedDate;
+	}
+
+	public void setUpdatedDate(String updatedDate) {
+		this.updatedDate = updatedDate;
+	}
 
 	public String getId() {
 		return id;
