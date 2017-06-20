@@ -5,7 +5,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 
-@CrossOrigin(origins = "http://localhost")
+@CrossOrigin
 @RepositoryRestResource(collectionResourceRel = "cvpApproval", path = "cvpApproval")
 public interface ClientVisitApprovalRepository extends MongoRepository<ClientVisitApproval, String> {
 	
