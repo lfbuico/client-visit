@@ -16,7 +16,16 @@ public class ClientVisitApproval {
 	
 	String updatedBy;
 	
+	String remarks;
 	
+
+	public String getRemarks() {
+		return remarks;
+	}
+
+	public void setRemarks(String remarks) {
+		this.remarks = remarks;
+	}
 
 	public String getUpdatedBy() {
 		return updatedBy;
