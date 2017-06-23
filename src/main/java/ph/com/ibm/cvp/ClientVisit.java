@@ -38,21 +38,21 @@ public class ClientVisit {
 	
 	String igsProject;
 	
-	List<Visitor> ibmVisitors;
+	List<String> ibmVisitors;
 	
-	List<Visitor> clientVisitors;
+	List<String> clientVisitors;
 	
-	List<TopicOfInterest> topicsOfInterests;
+	List<String> topicsOfInterests;
 	
-	List<DealBackground> dealBackgrounds;
+	List<String> dealBackgrounds;
 	
-	List<KeyMessage> keyMessages;
+	List<String> keyMessages;
     
-	List<Itenerary> iteneraries;
+	String iteneraries;
 
-	List<FoodPreference> foodPreferences;
+	String foodPreferences;
 	
-    List<TipsWatchOut> tips;
+	String tips;
     
     
 	public String getId() {
@@ -183,67 +183,67 @@ public class ClientVisit {
 		this.igsProject = igsProject;
 	}
 
-	public List<Visitor> getIbmVisitors() {
+	public List<String> getIbmVisitors() {
 		return ibmVisitors;
 	}
 
-	public void setIbmVisitors(List<Visitor> ibmVisitors) {
+	public void setIbmVisitors(List<String> ibmVisitors) {
 		this.ibmVisitors = ibmVisitors;
 	}
 
-	public List<Visitor> getClientVisitors() {
+	public List<String> getClientVisitors() {
 		return clientVisitors;
 	}
 
-	public void setClientVisitors(List<Visitor> clientVisitors) {
+	public void setClientVisitors(List<String> clientVisitors) {
 		this.clientVisitors = clientVisitors;
 	}
 
-	public List<TopicOfInterest> getTopicsOfInterests() {
+	public List<String> getTopicsOfInterests() {
 		return topicsOfInterests;
 	}
 
-	public void setTopicsOfInterests(List<TopicOfInterest> topicsOfInterests) {
+	public void setTopicsOfInterests(List<String> topicsOfInterests) {
 		this.topicsOfInterests = topicsOfInterests;
 	}
 
-	public List<DealBackground> getDealBackgrounds() {
+	public List<String> getDealBackgrounds() {
 		return dealBackgrounds;
 	}
 
-	public void setDealBackgrounds(List<DealBackground> dealBackgrounds) {
+	public void setDealBackgrounds(List<String> dealBackgrounds) {
 		this.dealBackgrounds = dealBackgrounds;
 	}
 
-	public List<KeyMessage> getKeyMessages() {
+	public List<String> getKeyMessages() {
 		return keyMessages;
 	}
 
-	public void setKeyMessages(List<KeyMessage> keyMessages) {
+	public void setKeyMessages(List<String> keyMessages) {
 		this.keyMessages = keyMessages;
 	}
 
-	public List<Itenerary> getIteneraries() {
+	public String getIteneraries() {
 		return iteneraries;
 	}
 
-	public void setIteneraries(List<Itenerary> iteneraries) {
+	public void setIteneraries(String iteneraries) {
 		this.iteneraries = iteneraries;
 	}
 
-	public List<FoodPreference> getFoodPreferences() {
+	public String getFoodPreferences() {
 		return foodPreferences;
 	}
 
-	public void setFoodPreferences(List<FoodPreference> foodPreferences) {
+	public void setFoodPreferences(String foodPreferences) {
 		this.foodPreferences = foodPreferences;
 	}
 
-	public List<TipsWatchOut> getTips() {
+	public String getTips() {
 		return tips;
 	}
 
-	public void setTips(List<TipsWatchOut> tips) {
+	public void setTips(String tips) {
 		this.tips = tips;
 	}
 
