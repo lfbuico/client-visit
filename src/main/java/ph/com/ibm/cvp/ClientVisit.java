@@ -53,6 +53,12 @@ public class ClientVisit {
 	String foodPreferences;
 	
 	String tips;
+	
+	String status;
+	
+	String dateSubmitted;
+	
+	String dateUpdated;
     
     
 	public String getId() {
@@ -61,6 +67,30 @@ public class ClientVisit {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+	
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getDateSubmitted() {
+		return dateSubmitted;
+	}
+
+	public void setDateSubmitted(String dateSubmitted) {
+		this.dateSubmitted = dateSubmitted;
+	}
+
+	public String getDateUpdated() {
+		return dateUpdated;
+	}
+
+	public void setDateUpdated(String dateUpdated) {
+		this.dateUpdated = dateUpdated;
 	}
 
 	public String getLocationCode() {
